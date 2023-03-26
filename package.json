@@ -1,10 +1,10 @@
 {
-  "name": "morethan-log",
+  "name": "Xinyi-blog",
   "version": "1.3.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/morethanmin/morethan-log.git"
+    "url": "https://github.com/XinyiiiWang/Xinyi-blog"
   },
   "scripts": {
     "dev": "next dev",
