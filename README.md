@@ -1,17 +1,17 @@
-# morethan-log
+# Xinyi's Blog
 
-<img width="1715" alt="image" src="https://user-images.githubusercontent.com/72514247/209824600-ca9c8acc-6d2d-4041-9931-43e34b8a9a5f.png">
+<img alt="image" src="public/thumbnail.png">
 
-Next.js static blog using Notion as a Content Management System (CMS). Supports both Blog format Post as well as Page format for Resume. Deployed using Vercel.
+This repo is forked from [morethan-log](https://github.com/morethanmin/morethan-log), which was originally deployed on Vercel. I made some slight changes and deployed this repo on GitHub Pages. I mean, I'm a poor developer who can't even afford my own domain name. But hey, I'm still rocking it!
 
-[Demo Blog](https://morethan-log.vercel.app) | [Demo Resume](https://morethan-log.vercel.app/resume)
+[Xinyi's Blog](https://xinyiiiwang.github.io/Xinyi-blog)
 
 ## Features
 
 **📒 Writing posts using notion**
 
-- No need of commiting to Github for posting anything to your website.
-- Posts made on Notion are automaticaly updated on your site.
+- No need to commit to Github for posting anything to your website.
+- Posts created on Notion are automatically updated on your site.
 
 **📄 Use as a page as resume**
 
@@ -28,48 +28,9 @@ Next.js static blog using Notion as a Content Management System (CMS). Supports 
 - Your profile information can be updated through Config. (`site.config.js`)
 - Plugins support includes, Google Analytics, Search Console and also Commenting using Github Issues(Utterances) or Cusdis.
 
-## Getting Started
+## Contribution
 
-1. Star this repo.
-2. [Fork](https://github.com/morethanmin/morethan-log/fork) the repo to your Profile.
-3. Duplicate [this Notion template](https://quasar-season-ed5.notion.site/12c38b5f459d4eb9a759f92fba6cea36?v=2e7962408e3842b2a1a801bf3546edda), and Share to Web.
-4. Copy the Web Link and keep note of the Notion Page Id from the Link which will be in this format [username.notion.site/`NOTION_PAGE_ID`?v=`VERSION_ID`].
-5. Clone your forked repo and then customize `site.config.js` based on your preference.
-6. Deploy on Vercel, with the following environment variables.
-
-   - `NOTION_PAGE_ID` (Required): The Notion page Id got from the Share to Web URL.
-   - `GOOGLE_MEASUREMENT_ID` : For Google analytics Plugin.
-   - `GOOGLE_SITE_VERIFICATION` : For Google search console Plugin.
-
-## Contributing
-
-Check out the [Contributing Guide](.github/CONTRIBUTING.md).
-
-### Contributors
-
-<!--
-Contributors template:
-<a href="https://github.com/{username}"><img src="{src}" width="50px" alt="{username}" /></a>&nbsp;&nbsp;
--->
-
-<p>
-<a href="https://github.com/kvaishak"><img src="https://avatars.githubusercontent.com/u/25531121?v=4" width="50px" alt="kvaishak" /></a>&nbsp;&nbsp;<a href="https://github.com/jhk0530"><img src="https://avatars.githubusercontent.com/u/6457691?s=120&v=4" width="50px" alt="jhk0530" /></a>&nbsp;&nbsp;<a href="https://github.com/i99dev"><img src="https://avatars.githubusercontent.com/u/10709888?s=120&v=4" width="50px" alt="i99dev" /></a>&nbsp;&nbsp;<a href="https://github.com/JaeSang1998"><img src="https://avatars.githubusercontent.com/u/58258782?s=120&v=4" width="50px" alt="JaeSang1998" /></a>&nbsp;&nbsp;<a href="https://github.com/vaishak-kaippanchery-liqid"><img src="https://avatars.githubusercontent.com/u/93523060?s=120&v=4" width="50px" alt="vaishak-kaippanchery-liqid" /></a>&nbsp;&nbsp;<a href="https://github.com/itjustbong"><img src="https://avatars.githubusercontent.com/u/29947261?v=4" width="50px" alt="itjustbong" /></a>&nbsp;&nbsp;<a href="https://github.com/ddarkr"><img src="https://avatars.githubusercontent.com/u/6638675?v=4" width="50px" alt="ddarkr" /></a>&nbsp;&nbsp;<a href="https://github.com/lisiver"><img src="https://avatars.githubusercontent.com/u/46680792?v=4" width="50px" alt="lisiver" /></a>&nbsp;&nbsp;<a href="https://github.com/Octoping925"><img src="https://avatars.githubusercontent.com/u/53991994?v=4" width="50px" alt="Octoping925" /></a>&nbsp;&nbsp;
-</p>
-
-## Support
-
-morethan-log is an MIT-licensed open source project. It can grow thanks to the sponsors and support from the amazing backers.
-
-### Sponsors
-
-<!--
-Sponsors template:
-<a href="https://github.com/{uesrname}"><img src="{src}" width="50px" alt="{username}" /></a>&nbsp;&nbsp;
--->
-
-<p>
-<a href="https://github.com/siyeons"><img src="https://avatars.githubusercontent.com/u/35549653?v=4" width="50px" alt="siyeons" /></a>&nbsp;&nbsp;
-</p>
+You can find all of the information in original repo.
 
 ## License
 
