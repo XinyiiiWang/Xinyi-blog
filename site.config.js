@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Xinyi",
     image: "/notion-avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Software Engineer",
-    bio: "Just a random nerd.",
+    bio: "Your favorite nerd.",
     email: "is.xinyiwang@outlook.com",
     linkedin: "xinyi-wang-b48290200",
     github: "XinyiiiWang",
@@ -54,7 +54,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "XinyiiiWang/Xinyi-blog",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
@@ -68,7 +68,7 @@ const CONFIG = {
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
 }
 module.exports = CONFIG
