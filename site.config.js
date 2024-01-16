@@ -28,9 +28,6 @@ const CONFIG = {
   since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
-  seo: {
-    keywords: ["Blog", "Website", "Notion"],
-  },
 
   // notion configuration (required)
   notionConfig: {
@@ -42,13 +39,19 @@ const CONFIG = {
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || "",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.GOOGLE_SITE_VERIFICATION || "",
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+    },
+  },
+  naverSearchAdvisor: {
+    enable: false,
+    config: {
+      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
   },
   utterances: {
@@ -67,8 +70,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  images: {
-    unoptimized: true,
-  },
+  revalidateTime: 21600 * 7, // revalidate time for [slug], index
 }
-module.exports = CONFIG
+
+module.exports = { CONFIG }
